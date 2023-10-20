@@ -1,3 +1,61 @@
-h6 {
-    color: bisque;
+/* 
+https://colorhunt.co/palette/d2e0fbf9f3ccd7e5ca8eaccd
+Blue
+#D2E0FB blue cyan light
+#F9F3CC white beige ish
+#D7E5CA cyan light blue
+#8EACCD cyan blue dark
+
+https://colorhunt.co/palette/222831393e4600adb5eeeeee
+#222831
+#393E46
+#00ADB5
+#EEEEEE
+*/
+body {
+    background-color: #EEEEEE;
 }
+
+h1 {
+    color:#393E46;
+    text-align: center;
+}
+p {
+    color:#393E46;
+     
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #393E46;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    /* can change */ display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #222831;
+    color: white;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  
